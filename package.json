@@ -22,10 +22,7 @@
   },
   "release": {
     "branches": [
-      {
-        "name": "main",
-        "prerelease": true
-      }
+      "main"
     ]
   }
 }
