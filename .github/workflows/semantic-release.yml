@@ -26,14 +26,10 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: npm install
-        run: 
-          npm install
+        run: npm install
 
       - name: Hello World!
         run: echo Hello, world!
 
-      - name: Semantic Release
-      - uses: codfish/semantic-release-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Print secrets
+        run: echo "github_token ${{ secrets.GITHUB_TOKEN }} npm_token ${{secrets.NPM_TOKEN}}"
