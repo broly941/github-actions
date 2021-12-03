@@ -16,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/broly941/github-actions/issues"
   },
-  "homepage": "https://github.com/broly941/github-actions#readme"
+  "homepage": "https://github.com/broly941/github-actions#readme",
+  "devDependencies": {
+    "semantic-release": "^18.0.1"
+  },
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      {
+        "name": "main",
+        "prerelease": true
+      }
+    ]
+  }
 }
