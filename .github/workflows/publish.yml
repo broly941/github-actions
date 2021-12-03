@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    name: build and publish to npm
+    name: publish to npm
     strategy:
       matrix:
         node-version: [ 14.17 ]
