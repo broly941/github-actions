@@ -1,6 +1,6 @@
 {
   "name": "github-actions-test-to-npm",
-  "version": "1.1.0",
+  "version": "1.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,15 +19,5 @@
   "homepage": "https://github.com/broly941/github-actions#readme",
   "devDependencies": {
     "semantic-release": "^18.0.1"
-  },
-  "release": {
-    "branches": [
-      "+([0-9])?(.{+([0-9]),x}).x",
-      "main",
-      {
-        "name": "main",
-        "prerelease": true
-      }
-    ]
   }
 }
