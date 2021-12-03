@@ -1,0 +1,20 @@
+{
+  "name": "github-actions-test-to-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broly941/github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/broly941/github-actions/issues"
+  },
+  "homepage": "https://github.com/broly941/github-actions#readme"
+}
